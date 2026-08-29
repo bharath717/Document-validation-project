@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment variables & secrets
+.env
+.env.*
+
+# Large model weights and archives
+backend/app/services/ocr_layout/models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.zip
+*.tar.gz
+
+# Test artifacts
+test_m3.py
+.pytest_cache/
